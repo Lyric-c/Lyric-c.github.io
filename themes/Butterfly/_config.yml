@@ -69,7 +69,7 @@ algolia_search:
 # Please see doc for more details: https://docs.jerryc.me/config.html#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -136,9 +136,9 @@ category_img:
 
 cover:
   # 是否顯示文章封面
-  index_enable: true
-  aside_enable: true
-  archives_enable: true
+  index_enable: false
+  aside_enable: false
+  archives_enable: false
   # 封面顯示的位置
   # 三個值可配置 left , right , both
   position: both
@@ -582,7 +582,7 @@ runtimeshow:
 #----------------------------------------------
 # 簡繁轉換
 translate:
-  enable: true
+  enable: false
   # 默認按鈕顯示文字
   default: 繁
   #網站默認語言，1: 繁體中文, 2: 簡體中文
