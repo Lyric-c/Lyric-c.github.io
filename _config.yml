@@ -13,8 +13,8 @@ timezone: 'UTC'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://lyric-c.github.io/hexo
+root: /hexo
 permalink: :year/:month/:day/:title.html
 permalink_defaults:
 pretty_urls:
