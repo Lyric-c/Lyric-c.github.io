@@ -582,7 +582,7 @@ runtimeshow:
 #----------------------------------------------
 # 簡繁轉換
 translate:
-  enable: true
+  enable: false
   # 默認按鈕顯示文字
   default: 繁
   #網站默認語言，1: 繁體中文, 2: 簡體中文
