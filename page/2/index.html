@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="zh" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>APTX4869</title><meta name="description"><meta name="author" content="Irelia"><meta name="copyright" content="Irelia"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="APTX4869"><meta name="twitter:description"><meta name="twitter:image" content="https://seesaw.fun/img/avatar.png"><meta property="og:type" content="website"><meta property="og:title" content="APTX4869"><meta property="og:url" content="https://seesaw.fun/page/2/"><meta property="og:site_name" content="APTX4869"><meta property="og:description"><meta property="og:image" content="https://seesaw.fun/img/avatar.png"><meta property="article:published_time" content="2020-06-30T08:32:02.758Z"><meta property="article:modified_time" content="2020-06-30T08:32:02.758Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://seesaw.fun/page/2/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">17</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> About</span></a></div></div></div></div><div id="body-wrap"><div class="full_page" id="nav" style="background-image: url(https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">APTX4869</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-heart"></i><span> About</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="site-info"><h1 id="site_title">APTX4869</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/jerryc127" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:xxxxxxx@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div><div id="scroll_down"><i class="fa fa-angle-down scroll-down-effects"></i></div></div><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/30/11.%20PHP%20socket%E5%88%9D%E6%8E%A2---select%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8.html" title="11. PHP socket初探---select系统调用">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="11. PHP socket初探---select系统调用"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/11.%20PHP%20socket%E5%88%9D%E6%8E%A2---select%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8.html" title="11. PHP socket初探---select系统调用">11. PHP socket初探---select系统调用</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">socket初探 — 先从一个简单的socket服务器开始＞中依次讲解了三个逐渐进步的服务器：
+
+只能服务于一个客户端的服务器
+利用fork可以服务于多个客户端的额服务器
+利用预fork派生进程服务于多个客户端的服务器
+
+最后一种服务器的进程模型基本上的大概原理其实跟我们常用的apache是非常相似 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/06/30/16.%20swoole%E7%9A%84%E5%8D%8F%E7%A8%8B%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E9%AC%BC.html" title="16. swoole的协程是个什么鬼">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="16. swoole的协程是个什么鬼"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/16.%20swoole%E7%9A%84%E5%8D%8F%E7%A8%8B%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E9%AC%BC.html" title="16. swoole的协程是个什么鬼">16. swoole的协程是个什么鬼</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">swoole的用法实际上对于大多数新手来说一直并不怎么友好，其实这不怪swoole，只能怪萌新们确实底子不够，有些东西理解起来可能真的比较困难。今天斗胆尝试引入一个应用场景和简单的代码案例来做个简单的入门，算是抛砖头引和田玉吧。
+
+老韩wiki.swoole.com以及一些社区中一直说swoole既 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/30/18.%E5%A1%AB%E5%9D%91%E4%B9%8BPHP%E7%9A%84yield%E5%92%8C%E5%8D%8F%E7%A8%8B%E5%9C%A8%E4%B8%80%E8%B5%B7%E7%9A%84%E6%97%A5%E5%AD%90%E9%87%8C.html" title="18.填坑之PHP的yield和协程在一起的日子里">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="18.填坑之PHP的yield和协程在一起的日子里"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/18.%E5%A1%AB%E5%9D%91%E4%B9%8BPHP%E7%9A%84yield%E5%92%8C%E5%8D%8F%E7%A8%8B%E5%9C%A8%E4%B8%80%E8%B5%B7%E7%9A%84%E6%97%A5%E5%AD%90%E9%87%8C.html" title="18.填坑之PHP的yield和协程在一起的日子里">18.填坑之PHP的yield和协程在一起的日子里</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">首先是，这是我第一次把公众号文章复制粘贴到github来。
+其次是，很久很久之前，我挖了一个yield的一个坑，自己挖的坑自己填，不然迟早会把自己埋掉。
+最后是，如果想看之前那个坑，请发送“yield”给README中的公众号，我开通了高大上的自动回复功能，稀罕地不得了！
+PS：那篇文章中在最后我犯 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/06/30/3.%20php%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%9D%E6%8E%A2---%E5%AD%A4%E5%84%BF%E5%92%8C%E5%83%B5%E5%B0%B8.html" title="3. php多进程初探---孤儿和僵尸">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="3. php多进程初探---孤儿和僵尸"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/3.%20php%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%9D%E6%8E%A2---%E5%AD%A4%E5%84%BF%E5%92%8C%E5%83%B5%E5%B0%B8.html" title="3. php多进程初探---孤儿和僵尸">3. php多进程初探---孤儿和僵尸</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">孤儿进程和僵尸进程上篇我整篇尬聊的都是pcntl_fork()，只管fork生产，不管产后护理，实际上这样并不符合主流价值观，而且，操作系统本身资源有限，这样无限生产不顾护理，操作系统也会吃不消的。
+孤儿进程是指父进程在fork出子进程后，自己先完了。这个问题很尴尬，因为子进程从此变得无依无靠、无家 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/30/%E6%AD%A3%E5%88%99.html" title="正则">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="正则"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/%E6%AD%A3%E5%88%99.html" title="正则">正则</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">
+    
+    
+        
+    
+    
+    
+        
+            
+        
+        
+            
+        
+    
+
+
+
+什么是正则表达式？
+正则表达式是一组由字母和符号组成的特殊文本，它可以用来从文本中找出满足 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/06/30/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF.html" title="命令行的艺术">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="命令行的艺术"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E8%89%BA%E6%9C%AF.html" title="命令行的艺术">命令行的艺术</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">
+前言
+基础
+日常使用
+文件及数据处理
+系统调试
+单行脚本
+冷门但有用
+仅限 OS X 系统
+仅限 Windows 系统
+更多资源
+免责声明
+
+熟练使用命令行是一种常常被忽视，或被认为难以掌握的技能，但实际上，它会提高你作为工程师的灵活性以及生产力。本文是一份我在 Linux 上工作时，发现的一些命 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/30/clearPHP.html" title="clearPHP">     <img class="post_bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="clearPHP"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/clearPHP.html" title="clearPHP">clearPHP</a><div class="article-meta-wrap"><time class="post-meta__date" title="Created 2020-06-30 08:31:44"><i class="fa fa-calendar" aria-hidden="true"></i>2020-06-30</time></div><div class="content">Clean Code PHP目录
+介绍
+变量
+使用见字知意的变量名
+同一个实体要用相同的变量名
+使用便于搜索的名称 (part 1)
+使用便于搜索的名称 (part 2)
+使用自解释型变量
+避免深层嵌套，尽早返回 (part 1)
+避免深层嵌套，尽早返回 (part 2)
+少用无意义的变量名
+不要添 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fa fa-fw fa-chevron-left" aria-hidden="true"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Irelia</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">Articles</div><div class="length_num">17</div></a></div></div><div class="card-info-bookmark is-center"><a class="bookmark button--primary button--animated" id="bookmark-it" href="javascript:;" title="Bookmark" target="_self"><i class="fa fa-bookmark" aria-hidden="true"></i><span>Bookmark</span></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/jerryc127" target="_blank" title="Github"><i class="fa fa-github" aria-hidden="true"></i></a><a class="social-icon" href="mailto:xxxxxxx@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fa fa-bullhorn card-announcement-animation" aria-hidden="true"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fa fa-history" aria-hidden="true"></i><span>Recent Post</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/2020/06/30/hello-world.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="Hello World" alt="Hello World"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/30/hello-world.html" title="Hello World">Hello World</div><time class="aside-post_meta post-meta__date" title="Created 2020-06-30 08:31:44">2020-06-30</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/30/1.%20php%E8%BF%9B%E7%A8%8Bdaemon%E5%8C%96%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%81%9A%E6%B3%95.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="1. php进程daemon化的正确做法" alt="1. php进程daemon化的正确做法"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/30/1.%20php%E8%BF%9B%E7%A8%8Bdaemon%E5%8C%96%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%81%9A%E6%B3%95.html" title="1. php进程daemon化的正确做法">1. php进程daemon化的正确做法</div><time class="aside-post_meta post-meta__date" title="Created 2020-06-30 08:31:44">2020-06-30</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/30/15.%20PHP%20socket%E5%88%9D%E6%8E%A2%20---%20%E4%B8%80%E4%BA%9B%E9%9B%B6%E7%A2%8E%E7%BB%86%E8%8A%82%E7%9A%84%E6%8B%BE%E6%BC%8F%E8%A1%A5%E7%BC%BA%EF%BC%88%E4%B8%80%EF%BC%89.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="15. PHP socket初探 --- 一些零碎细节的拾漏补缺（一）" alt="15. PHP socket初探 --- 一些零碎细节的拾漏补缺（一）"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/30/15.%20PHP%20socket%E5%88%9D%E6%8E%A2%20---%20%E4%B8%80%E4%BA%9B%E9%9B%B6%E7%A2%8E%E7%BB%86%E8%8A%82%E7%9A%84%E6%8B%BE%E6%BC%8F%E8%A1%A5%E7%BC%BA%EF%BC%88%E4%B8%80%EF%BC%89.html" title="15. PHP socket初探 --- 一些零碎细节的拾漏补缺（一）">15. PHP socket初探 --- 一些零碎细节的拾漏补缺（一）</div><time class="aside-post_meta post-meta__date" title="Created 2020-06-30 08:31:44">2020-06-30</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/30/17.%20PHP%E4%B8%AD%E7%9A%84yield%EF%BC%88%E4%B8%8A%EF%BC%89.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="17. PHP中的yield（上）" alt="17. PHP中的yield（上）"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/30/17.%20PHP%E4%B8%AD%E7%9A%84yield%EF%BC%88%E4%B8%8A%EF%BC%89.html" title="17. PHP中的yield（上）">17. PHP中的yield（上）</div><time class="aside-post_meta post-meta__date" title="Created 2020-06-30 08:31:44">2020-06-30</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/30/4.%20php%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%9D%E6%8E%A2---%E4%BF%A1%E5%8F%B7.html"><div class="aside-post-cover"><img class="aside-post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" title="4. php多进程初探---信号" alt="4. php多进程初探---信号"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/30/4.%20php%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%9D%E6%8E%A2---%E4%BF%A1%E5%8F%B7.html" title="4. php多进程初探---信号">4. php多进程初探---信号</div><time class="aside-post_meta post-meta__date" title="Created 2020-06-30 08:31:44">2020-06-30</time></div></a></div></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fa fa-archive" aria-hidden="true"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">June 2020</span><span class="card-archive-list-count">17</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fa fa-line-chart" aria-hidden="true"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">Article :</div><div class="webinfo-article-count">17</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">Run time :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" start_date="6/7/2018 00:00:00">     </div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">UV :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">PV :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Irelia</div><div class="framework-info"><span>Driven </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleEffect = true
+if (subtitleEffect) { 
+  var typed = new Typed("#subtitle", {
+    strings: '今日事&#44;今日畢,Never put off till tomorrow what you can do today'.split(","),
+    startDelay: 300,
+    typeSpeed: 150,
+    loop: false,
+    backSpeed: 50
+  })
+} else {
+  document.getElementById("subtitle").innerHTML = '今日事&#44;今日畢'
+}</script></body></html>
